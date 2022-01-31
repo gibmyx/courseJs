@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import HelloWork from "./Component/HelloWork";
 import Clock from "./Component/Clock";
 import Greeting from "./Component/Greeting";
+import ListAndKeys from "./Component/ListAndKeys"
 
 import PeopleInterfas from "./Interfaces/PeopleInterfas";
 import People from "./Class/People";
@@ -25,5 +26,10 @@ ReactDOM.render(
 ReactDOM.render(
     <Greeting isLoggedIn={false} />,
     document.getElementById('root3')
+);
+
+ReactDOM.render(
+    <ListAndKeys />,
+    document.getElementById('root4')
 );
 reportWebVitals();
