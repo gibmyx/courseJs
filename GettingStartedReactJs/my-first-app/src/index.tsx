@@ -13,6 +13,7 @@ import FormsMultiple from "./Component/FormsMultiple"
 import LiftingStateUp from "./Component/LiftingStateUp"
 import PeopleInterfas from "./Interfaces/PeopleInterfas";
 import People from "./Class/People";
+import CompositionVsInheritance from "./Component/CompositionVsInheritance";
 const people: PeopleInterfas = new People("Gibmyx", "Gomez")
 
 ReactDOM.render(
@@ -48,5 +49,10 @@ ReactDOM.render(
 ReactDOM.render(
     <LiftingStateUp />,
     document.getElementById('root7')
+);
+
+ReactDOM.render(
+    <CompositionVsInheritance />,
+    document.getElementById('root8')
 );
 reportWebVitals();
