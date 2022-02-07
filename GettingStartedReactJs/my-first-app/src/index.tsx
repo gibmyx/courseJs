@@ -17,42 +17,42 @@ import CompositionVsInheritance from "./Component/CompositionVsInheritance";
 const people: PeopleInterfas = new People("Gibmyx", "Gomez")
 
 ReactDOM.render(
-    <HelloWork people={people}/>,
+    <div>
+        <HelloWork people={people}/>
+        <br/>
+        <br/>
+        <hr/>
+        <Clock />
+        <br/>
+        <br/>
+        <hr/>
+        <Greeting isLoggedIn={false} />
+        <br/>
+        <br/>
+        <hr/>
+        <ListAndKeys />
+        <br/>
+        <br/>
+        <hr/>
+        <Forms />
+        <br/>
+        <br/>
+        <hr/>
+        <FormsMultiple />
+        <br/>
+        <br/>
+        <hr/>
+        <LiftingStateUp />
+        <br/>
+        <br/>
+        <hr/>
+        <CompositionVsInheritance />
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+    </div>,
     document.getElementById('root')
 );
 
-ReactDOM.render(
-    <Clock />,
-    document.getElementById('root2')
-);
-
-ReactDOM.render(
-    <Greeting isLoggedIn={false} />,
-    document.getElementById('root3')
-);
-
-ReactDOM.render(
-    <ListAndKeys />,
-    document.getElementById('root4')
-);
-
-ReactDOM.render(
-    <Forms />,
-    document.getElementById('root5')
-);
-
-ReactDOM.render(
-    <FormsMultiple />,
-    document.getElementById('root6')
-);
-
-ReactDOM.render(
-    <LiftingStateUp />,
-    document.getElementById('root7')
-);
-
-ReactDOM.render(
-    <CompositionVsInheritance />,
-    document.getElementById('root8')
-);
 reportWebVitals();
