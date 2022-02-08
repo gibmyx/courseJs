@@ -1,13 +1,6 @@
 import React, {Fragment, RefObject} from "react";
 
-function CustomTextInput({textInput} : {textInput: RefObject<HTMLInputElement>}){
-
-    const focus = (textInput: RefObject<HTMLInputElement>): void => {
-        if (textInput.current){
-            textInput.current.focus()
-        }
-    }
-
+function CustomTextInput({textInput, focus} : {textInput: RefObject<HTMLInputElement>, focus: (textInput: RefObject<HTMLInputElement>) => void }){
     return (
         <Fragment>
             <input type="text" ref={textInput}/>
@@ -19,11 +12,17 @@ function CustomTextInput({textInput} : {textInput: RefObject<HTMLInputElement>})
 function ControlDeFoco() {
     let textInput = React.createRef<HTMLInputElement>()
 
+    const focus = (textInput: RefObject<HTMLInputElement>): void => {
+        if (textInput.current){
+            textInput.current.focus()
+        }
+    }
+
     return (
         <div>
             <hr/>
             <h3>Control de foco</h3>
-            <CustomTextInput textInput={textInput}/>
+            <CustomTextInput textInput={textInput} focus={focus}/>
         </div>
     )
 }
