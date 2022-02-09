@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import {Class01HooksState} from "./components/Class01HooksState";
+import {Class02HooksEffect} from "./components/Class02HooksEffect";
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Class01HooksState />
+    <Class02HooksEffect friend={{id: 1, name: "Gibmyx"}}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
