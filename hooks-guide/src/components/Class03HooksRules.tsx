@@ -6,7 +6,7 @@ function Class03HooksRules() {
 
     // 2. Usa un efecto para persistir el formulario
     useEffect(function persistForm() {
-        console.log(name)
+        console.log("persistForm")
         // 👍 No vamos a romper la primera regla nunca más.
         if (name !== '') {
             localStorage.setItem('formData', name);
@@ -18,7 +18,7 @@ function Class03HooksRules() {
 
     // 4. Usa un efecto para la actualización del título
     useEffect(function updateTitle() {
-        console.log(name, surname)
+        console.log("updateTitle")
         document.title = name + ' ' + surname;
     }, [name, surname]);
     return (
