@@ -4,6 +4,7 @@ import './index.css';
 import {Class01HooksState} from "./components/Class01HooksState";
 import {Class02HooksEffect} from "./components/Class02HooksEffect";
 import {Class03HooksRules} from "./components/Class03HooksRules";
+import {Class04HooksCustom} from "./components/Class04HooksCustom";
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -11,6 +12,7 @@ ReactDOM.render(
         <Class01HooksState/>
         <Class02HooksEffect friend={{id: 1, name: "Gibmyx"}}/>
         <Class03HooksRules/>
+        <Class04HooksCustom friend={{id: 1, name: "Gibmyx"}}/>
     </React.StrictMode>,
     document.getElementById('root')
 );
