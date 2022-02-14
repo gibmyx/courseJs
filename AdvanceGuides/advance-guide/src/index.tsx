@@ -11,8 +11,8 @@ import {items} from "./data/items";
 
 ReactDOM.render(
     <Fragment>
-        {/*<Class01SemanticaHTML items={items}/>*/}
-        {/*<Class02ControlDeFoco />*/}
+        <Class01SemanticaHTML items={items}/>
+        <Class02ControlDeFoco />
         <Class03MouseAndPointerEvents />
     </Fragment>,
     document.getElementById('root')
