@@ -1,4 +1,4 @@
-import {useState, useEffect} from 'react';
+import {useState, useEffect, useDebugValue} from 'react';
 import ChatAPI from "../class/ChatAPI";
 
 interface Friend {
@@ -10,6 +10,7 @@ function Class02HooksEffect({friend}: { friend: Friend }) {
     const [isOnline, setIsOnline] = useState(false);
     const [count, setCount] = useState(0);
 
+    useDebugValue(isOnline ? 'Online' : 'Offline');
     useEffect(() => {
         document.title = `You clicked ${count} times`;
         friend.id  = count;
