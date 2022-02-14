@@ -9,7 +9,7 @@ function CustomTextInput({textInput, focus} : {textInput: RefObject<HTMLInputEle
     )
 }
 
-function ControlDeFoco() {
+function Class02ControlDeFoco() {
     let textInput = React.createRef<HTMLInputElement>()
 
     const focus = (textInput: RefObject<HTMLInputElement>): void => {
@@ -27,4 +27,4 @@ function ControlDeFoco() {
     )
 }
 
-export {ControlDeFoco}
+export {Class02ControlDeFoco}
