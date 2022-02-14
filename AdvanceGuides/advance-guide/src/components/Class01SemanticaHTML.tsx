@@ -15,7 +15,7 @@ function ListItem({item}: {item: Items}) {
     );
 }
 
-function SemanticaHTML({items} : {items: Items[]}) {
+function Class01SemanticaHTML({items} : {items: Items[]}) {
 
     const listItems: ReactElement[] = [];
 
@@ -33,4 +33,4 @@ function SemanticaHTML({items} : {items: Items[]}) {
     )
 }
 
-export {SemanticaHTML}
+export {Class01SemanticaHTML}
