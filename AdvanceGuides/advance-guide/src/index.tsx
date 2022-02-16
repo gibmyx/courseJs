@@ -6,6 +6,7 @@ import {Class01SemanticaHTML} from "./components/Class01SemanticaHTML";
 import {Class02ControlDeFoco} from "./components/Class02ControlDeFoco";
 import {Class03MouseAndPointerEvents} from "./components/Class03MouseAndPointerEvents";
 import {Class04CodeSplitting} from "./components/Class04CodeSplitting";
+import {Class05Context} from "./components/Class05Context";
 import {items} from "./data/items";
 
 
@@ -16,6 +17,7 @@ ReactDOM.render(
         <Class02ControlDeFoco />
         <Class03MouseAndPointerEvents />
         <Class04CodeSplitting />
+        <Class05Context />
     </Fragment>,
     document.getElementById('root')
 );
