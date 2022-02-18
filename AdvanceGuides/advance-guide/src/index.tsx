@@ -7,6 +7,7 @@ import {Class02ControlDeFoco} from "./components/Class02ControlDeFoco";
 import {Class03MouseAndPointerEvents} from "./components/Class03MouseAndPointerEvents";
 import {Class04CodeSplitting} from "./components/Class04CodeSplitting";
 import {Class05Context} from "./components/Class05Context";
+import {Class06ErrorBoundaries} from "./components/Class06ErrorBoundaries";
 import {items} from "./data/items";
 
 
@@ -18,6 +19,7 @@ ReactDOM.render(
         <Class03MouseAndPointerEvents />
         <Class04CodeSplitting />
         <Class05Context />
+        <Class06ErrorBoundaries />
     </Fragment>,
     document.getElementById('root')
 );
