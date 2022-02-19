@@ -8,19 +8,21 @@ import {Class03MouseAndPointerEvents} from "./components/Class03MouseAndPointerE
 import {Class04CodeSplitting} from "./components/Class04CodeSplitting";
 import {Class05Context} from "./components/Class05Context";
 import {Class06ErrorBoundaries} from "./components/Class06ErrorBoundaries";
+import {Class07ForwardingRefs} from "./components/Class07ForwardingRefs";
 import {items} from "./data/items";
 
 
 
 ReactDOM.render(
-    <Fragment>
+    <React.StrictMode>
         <Class01SemanticaHTML items={items}/>
         <Class02ControlDeFoco />
         <Class03MouseAndPointerEvents />
         <Class04CodeSplitting />
         <Class05Context />
         <Class06ErrorBoundaries />
-    </Fragment>,
+        <Class07ForwardingRefs />
+    </React.StrictMode>,
     document.getElementById('root')
 );
 /*
