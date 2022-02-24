@@ -10,6 +10,7 @@ import {Class05Context} from "./components/Class05Context";
 import {Class06ErrorBoundaries} from "./components/Class06ErrorBoundaries";
 import {Class07ForwardingRefs} from "./components/Class07ForwardingRefs";
 import {Class08Fragments} from "./components/Class08Fragments";
+import {Class09HigherOrderComponents} from "./components/Class09HigherOrderComponents";
 import {items} from "./data/items";
 
 
@@ -24,6 +25,7 @@ ReactDOM.render(
         <Class06ErrorBoundaries />
         <Class07ForwardingRefs />
         <Class08Fragments />
+        <Class09HigherOrderComponents />
     </React.StrictMode>,
     document.getElementById('root')
 );
