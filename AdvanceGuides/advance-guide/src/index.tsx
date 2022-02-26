@@ -12,6 +12,7 @@ import {Class07ForwardingRefs} from "./components/Class07ForwardingRefs";
 import {Class08Fragments} from "./components/Class08Fragments";
 import {Class09HigherOrderComponents} from "./components/Class09HigherOrderComponents";
 import {Class10JsxInDept} from "./components/Class10JsxInDept";
+import {Class11Portals} from "./components/Class11Portals";
 import {items} from "./data/items";
 
 
@@ -28,6 +29,7 @@ ReactDOM.render(
         <Class08Fragments />
         <Class09HigherOrderComponents />
         <Class10JsxInDept />
+        <Class11Portals />
     </React.StrictMode>,
     document.getElementById('root')
 );
