@@ -1,12 +1,12 @@
 import React from "react";
 
-const PrimeraApp = ({saludo = "Hola mundo"}: any) => {
+const PrimeraApp = ({saludo, subtitulo = 'Soy un subtitulo'}: { saludo:string }) => {
 
     return (
         <>
             <h1>{saludo}</h1>
             {/*<pre>{JSON.stringify(saludo, null, 3)}</pre>*/}
-            <p>Mi primera aplicacion</p>
+            <p>{subtitulo}</p>
         </>
     )
 }
