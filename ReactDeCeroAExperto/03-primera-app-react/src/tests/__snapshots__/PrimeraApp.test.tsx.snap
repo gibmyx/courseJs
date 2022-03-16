@@ -1,0 +1,23 @@
+// Vitest Snapshot v1
+
+exports[`Prueba en <PrimeraApp /> > debe mostrar el mensaje de Hola, soy Goku 1`] = `
+<Fragment>
+  <h1>
+    Hola, soy Goku
+  </h1>
+  <p>
+    Soy un subtitulo
+  </p>
+</Fragment>
+`;
+
+exports[`Prueba en <PrimeraApp /> > debe mostrar el subtitulo enviado por props 1`] = `
+<Fragment>
+  <h1>
+    Hola, soy Goku
+  </h1>
+  <p>
+    Soy un subtitulo
+  </p>
+</Fragment>
+`;
