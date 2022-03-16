@@ -7,4 +7,4 @@ import "./index.css";
 const root = document.getElementById("root")
 
 // ReactDOM.render(<PrimeraApp saludo="Hola Gibmyx" subtitulo="Mi primera app"/>, root)
-ReactDOM.render(<CounterApp value={50}/>, root)
+ReactDOM.render(<CounterApp value={100}/>, root)
